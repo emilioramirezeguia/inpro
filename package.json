@@ -1,0 +1,23 @@
+{
+  "name": "inpro",
+  "version": "1.0.0",
+  "description": "Página web de Industrial Proveedora Las Californias",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilioramirezeguia/inpro.git"
+  },
+  "author": "Emilio Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilioramirezeguia/inpro/issues"
+  },
+  "homepage": "https://github.com/emilioramirezeguia/inpro#readme",
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^3.0.0",
+    "prettier": "^2.6.2",
+    "prettier-plugin-erb": "^0.4.0"
+  }
+}
