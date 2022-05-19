@@ -1,6 +1,7 @@
-require 'sinatra'
-require 'sinatra/reloader' if development?
+require 'sinatra/base'
 
-get '/' do
-  erb :layout
+class App < Sinatra::Base
+  get '/' do
+    erb :layout
+  end  
 end
