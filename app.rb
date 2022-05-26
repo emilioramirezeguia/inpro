@@ -2,6 +2,6 @@ require 'sinatra/base'
 
 class App < Sinatra::Base
   get '/' do
-    erb :layout
+    "Hello World"
   end  
 end
