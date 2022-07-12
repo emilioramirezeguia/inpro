@@ -3,10 +3,10 @@ require "spec_helper"
 describe App do
   let(:app) { App.new }
 
-  describe "GET /" do
-    it "says hello world" do
+  describe "Homepage" do
+    it "has a nice heading" do
       get "/"
-      expect(last_response.body).to eq("Hello World")
+      expect(last_response.body).to have_tag("h1", :text => "INPRO")
     end
   end 
 end
