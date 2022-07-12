@@ -19,3 +19,8 @@ Visit [http://localhost:9292/](http://localhost:9292/)
 ```
 npx tailwindcss -i ./public/input.css -o ./public/dist/output.css --watch
 ```
+
+### Run specs
+```
+rspec spec/app_spec.rb --format documentation
+```
